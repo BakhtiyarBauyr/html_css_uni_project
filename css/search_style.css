@@ -1,0 +1,118 @@
+/*main_search styles: start*/
+.main_search{
+    min-height: 100vh;
+    background: #7D6B55;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+}
+.input_info{
+    height: 200px;
+    width: 100%;
+    padding: 69px 137px;
+}
+.input_name{
+    height: 98px;
+    width: 521px;
+    border-radius: 35px;
+    margin-right: 50px;
+    font-size: 35px;
+    font-family: 'Advent Pro';
+    padding: 0 35px;
+}
+.input_name::placeholder{
+    color: #A1A1A1;
+}
+.input_type{
+    height: 98px;
+    width: 316px;
+    border-radius: 35px;
+    margin-right: 50px;
+    font-size: 35px;
+    font-family: 'Advent Pro';
+    padding: 0 35px;
+}
+.input_type::placeholder{
+    color: #A1A1A1;
+}
+.movie_button{
+    height: 98px;
+    width: 229px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    color: #FFFFFF;
+    background: #392F2F;
+    border-radius: 35px;
+    border: 0;
+}
+.result_card{
+    height: 665px;
+    width: 596px;
+    border-radius: 35px;
+    background: #392F2F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_image{
+    height: 304px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+.default_card_image{
+    height: 304px;
+    width: 528px;
+    background: #D9D9D9;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    align-items: center;
+    font-size: 75px;
+    
+}
+.image_card{
+    width: auto;
+    height: 100%;
+}
+.card_name{
+    height: 53px;
+    border-radius: 35px;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    margin-top: 31px;
+}
+.card_image img{
+    border-radius: 35px;
+}
+.card_description{
+    width: 528px;
+    height: 178px;
+    background: #D9D9D9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #000;
+    padding: 0 15px;
+    margin-top: 31px;
+    border-radius: 15px;
+}
+/*main_search styles: end*/

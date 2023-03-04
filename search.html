@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmoSearch - a web page to discover movies.</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/search_style.css">
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+<body>
+    <main class="main_search">
+       <div class="form_container">
+        <form class="input_info">
+            <input type="text" placeholder="Movie name" class="input_name" id="titleSearch">
+            <input type="text" placeholder="Movie/Series" class="input_type" id="typeSearch">
+            <button type="button" class="movie_button" onclick="searchMovie()">Search</button>
+        </form>
+       </div>
+        <div id="card">
+            <div class="result_card">
+                <div class="card_border">
+                    <div class="card_image">
+                        <div class="default_card_image">
+                            Poster
+                        </div>
+                    </div>
+                    <div class="card_name">
+                        Name
+                    </div>
+                    <div class="card_description">
+                        Short description
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+<script src="./js/main.js"></script>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+</body>
+</html>
